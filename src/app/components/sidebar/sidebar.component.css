@@ -1,0 +1,72 @@
+/* Estilo base para el sidebar */
+.sidebar {
+
+  height: 100vh;
+  background-color: #f1f0de ;
+  transition: width 0.3s ease;
+  overflow-x: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+/* Sidebar colapsado */
+.sidebar.collapsed {
+  width: 3rem;
+}
+
+.toggle-btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem;
+}
+
+
+.p-tieredmenu {
+  width: 50%;
+}
+
+.sidebar.collapsed .p-tieredmenu .p-menuitem-text {
+  display: none;
+}
+
+
+.sidebar.collapsed .p-tieredmenu .pi {
+  margin-right: 0;
+  display: flex;
+  justify-content: center;
+}
+
+::ng-deep .p-menuitem-icon {
+  color: rgba(255, 255, 255, 0.6); /* Color del ícono */
+  margin-right: 1rem ;
+
+}
+
+::ng-deep .p-menuitem-content {
+  margin-bottom: 1.5rem;
+}
+
+
+
+/* Ajustes de responsive */
+@media (max-width: 768px) {
+  .sidebar {
+    width: 80px;
+  }
+
+  .sidebar.collapsed {
+    width: 80px;
+  }
+
+  .toggle-btn {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}

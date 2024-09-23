@@ -1,0 +1,6 @@
+<div class="sidebar" [ngClass]="{ 'collapsed': isCollapsed }">
+  <div class="toggle-btn" (click)="toggleSidebar()">
+    <i class="pi" [ngClass]="isCollapsed ? 'pi-angle-right' : 'pi-angle-left'"></i>
+  </div>
+  <p-tieredMenu [model]="items" class="icon"></p-tieredMenu>
+</div>
