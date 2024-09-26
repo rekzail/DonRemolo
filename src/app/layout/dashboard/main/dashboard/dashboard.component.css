@@ -1,0 +1,92 @@
+.main{
+  padding: 1rem;
+}
+.container-head {
+  padding-top: .5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+.username{
+  margin: 0;
+  padding: 0;
+  color: #B4BCCF;
+}
+
+.hi{
+  margin: 0;
+
+}
+
+.searchInput {
+  width: 100%;
+  padding: 7px 15px 7px 40px;
+  border: 1px solid #ccc;
+  border-radius: 0.7rem;
+  font-weight: 600;
+  background-color:  rgba(180, 188, 207, 0.41);;
+}
+.searchInput::placeholder {
+  color: #61656F; /* Cambia a cualquier color que desees */
+}
+
+.iconMag {
+  margin-left: 1rem;
+  transform: translateY(1.7rem);
+  width: 1rem;
+  height: 1rem;
+  fill: #61656F;
+}
+
+
+/* Promo  start */
+
+.promo{
+  width: 100%;
+  height: 200px;
+  background-color: black;
+  color: white;
+  border-radius: 1rem;
+  margin-top: 1.5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+}
+
+.promo-text {
+  padding: 0.5rem;
+  padding-left: 1.5rem;
+}
+
+.promo-desc {
+  font-size: 0.5rem;
+}
+
+.promo-btn {
+  margin-top: 0.5rem;
+  color: white;
+  background: #FF9921;
+  padding: 0.4rem 1rem;
+  border-radius: 0.5rem;
+  font-weight: 700;
+  font-size: 0.8rem;
+
+}
+.img-promo{
+
+  display: flex;
+  justify-content: flex-end;
+}
+.promo-img{
+  height: 200px;
+
+}
+.promo-50{
+  color: #FF9921;
+  font-weight: 700;
+}
+
+/* promo end  */
+/* Menu item */
+
+

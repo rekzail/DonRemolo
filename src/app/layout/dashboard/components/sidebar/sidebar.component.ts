@@ -20,10 +20,11 @@ export class SidebarComponent {
   isCollapsed = true; // Estado del sidebar
 
   items = [
-    { label: ' Home', icon: 'pi pi-home', routerLink: '/home' },
-    { label: ' Profile', icon: 'pi pi-user', routerLink: '/profile' },
+    { label: ' Inicio', icon: 'pi pi-home', routerLink: '/home' },
+    { label: ' Perfil', icon: 'pi pi-user', routerLink: '/profile' },
+    { label: ' Billetera', icon: 'pi pi-wallet', routerLink: '/wallet' },
     { label: ' Messages', icon: 'pi pi-envelope', routerLink: '/messages' },
-    { label: ' Settings', icon: 'pi pi-cog', routerLink: '/settings' }
+    { label: ' Configuracion', icon: 'pi pi-cog', routerLink: '/settings' }
   ];
 
   toggleSidebar() {

@@ -1,0 +1,22 @@
+.menu-items {
+  display: flex;
+  flex-direction: row;
+}
+.list-menu {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+
+}
+.list-menu li{
+  margin-left: 1rem;
+  padding: 0.3rem 1rem;
+  box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 1rem;
+
+}
+.list-menu li span {
+ color: #FF9921;
+ font-weight: 700;
+
+}

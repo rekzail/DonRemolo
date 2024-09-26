@@ -1,14 +1,23 @@
 /* Estilo base para el sidebar */
 .sidebar {
-
+width: 20vw;
   height: 100vh;
-  background-color: #f1f0de ;
   transition: width 0.3s ease;
   overflow-x: hidden;
   position: fixed;
-  top: 0;
+  padding-top: 2rem;
   left: 0;
+  overflow-y: auto;
+  z-index: 1000;
+
 }
+::ng-deep .p-tieredmenu{
+background: white;
+  border: none;
+
+}
+
+
 
 /* Sidebar colapsado */
 .sidebar.collapsed {
@@ -16,7 +25,7 @@
 }
 
 .toggle-btn {
-  background-color: transparent;
+
   border: none;
   cursor: pointer;
   display: flex;
@@ -42,13 +51,24 @@
 }
 
 ::ng-deep .p-menuitem-icon {
-  color: rgba(255, 255, 255, 0.6); /* Color del ícono */
+  color: #B4BCCF;
   margin-right: 1rem ;
+  font-size: 1.3rem;
 
 }
 
+
+
 ::ng-deep .p-menuitem-content {
   margin-bottom: 1.5rem;
+
+}
+::ng-deep .p-menuitem-text {
+  color: black;
+  font-size: 1.1rem;
+  font-weight: 500;
+
+
 }
 
 
